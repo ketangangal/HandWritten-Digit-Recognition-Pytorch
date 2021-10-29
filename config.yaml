@@ -1,0 +1,14 @@
+param:
+  batch_size: 32
+  shuffle: True
+  input_size: 784
+  output_size: 10
+  n_epoch: 1
+
+
+directory:
+  main: C:\Users\ketan\Desktop\DeepLearning\HandWritten-Digit-Recognition-Pytorch
+  logs: logger\general\logs.log
+  plot: artifacts\plots
+  root_dir: src\data
+  model_dir: artifacts\models
