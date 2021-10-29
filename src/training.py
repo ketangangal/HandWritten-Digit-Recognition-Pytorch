@@ -62,7 +62,7 @@ def training(config):
     save_plot(loss_, acc_, 'plot', path)
     logs.info(log_type='INFO', log_message='Plot Saved')
 
-    # Test
+    # Test on test data
     test_loss = 0
     test_accuracy = 0
     total = 0
